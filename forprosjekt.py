@@ -4,8 +4,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 df = pd.read_excel("https://github.com/MartinLOlsen/Forprosjekt/blob/5f387d5dbac1e2514bab0fb57be1bc19a5cd858f/skostr_hoyde.xlsx?raw=true?", header=0)
-#print(g)
-#print(g.shape)
 
 x_i = df.iloc[:, 0]
 y_i = df.iloc[:, 1]
