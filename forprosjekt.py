@@ -7,8 +7,8 @@ df = pd.read_excel("https://github.com/MartinLOlsen/Forprosjekt/blob/5f387d5dbac
 
 x_i = df.iloc[:, 0]
 y_i = df.iloc[:, 1]
-#print(x_i)
-#print(y_i)
+print(x_i)
+print(y_i)
 
 a, b = np.polyfit(x_i, y_i, 1)
 print(f'Regresjonslinje: y={a:.4f}x + {b:.4f}')
